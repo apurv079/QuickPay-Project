@@ -27,9 +27,10 @@ if (!/^\d{10}$/.test(mobile)){
     console.log("Email:", email);
     console.log("Mobile:", mobile);
 
-    alert(`Welcome ${name}!✅ Account created successfully!`);
-    window.location.href = window.location.origin + "../index.html";
+    alert(`🎉 Welcome ${name}! Account created successfully.`);
 
-
+    window.location.href = "../index.html";
     form.reset();
+
 });
+
